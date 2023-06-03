@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* start header */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+header nav .nav__main1{
+    display: flex;  
+    align-items: center;
+    padding-top: 32px;
+}
+
+header nav .nav__main1 p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    padding-left: 5px;
+}
+
+header nav .nav__main2 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+header nav .nav__main2 ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #170C04;
+}
+
+header nav .nav__main3 i{
+    width: 55px;
+    height: 16px;
+    font-size: 17px;
+    padding-top: 40px;
+}
+
+/* finish header */
+
+/* start header__main */
+
+header .header__main{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1100px;
+}
+
+header .header__main .header__blok h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 80px;
+    padding-top: 135px;
+    padding-bottom: 70px;
+}
+
+header .header__main .header__blok .button__first{
+    width: 123px;
+    height: 48px;
+    background: #E27B3A;
+    border-radius: 24px;
+    border: 0px solid #000;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+header .header__main .header__blok button{
+    width: 139px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #E27B3A;
+    border-radius: 24px; 
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #E27B3A;
+    margin-right: 30px;
+}
+
+header .header__main .header__blok img{
+    width: 699px;
+    padding-top: 80px;
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 500px) {
+    
+}
+
+@media (max-width: 400px) {
+    
+}
