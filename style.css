@@ -99,6 +99,84 @@ header .header__main .header__blok img{
     width: 699px;
     padding-top: 80px;
 }
+.blok10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 132px;
+}
+.blok10 .main_menu{
+    border: 1px solid lightgrey;
+    max-width: 360px;
+    height: 241px;
+}
+.blok10 .main_menu .top{
+    max-width: 43px;
+    height: 43px;    
+}
+.blok10 .main_menu .rel{
+    color: #E27B3A;
+}
+.main_menu p{
+    color: lightgrey;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-size: 16px;    
+}
+.kop{
+    text-align: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.kop .cup{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.kop img{
+    margin-top: 30px;
+}
+.kop p{
+    color: black;
+    flex-wrap: wrap;
+    opacity: 0.6;
+}
+.kop .cup img{
+    max-width: 1000px;
+    height: 520px;
+}
+.kop .one{
+    color: #E27B3A;
+}
+.kop .cup .rel{
+    max-width: 300px;
+    height: 270px; 
+    padding-top: 50px;   
+}
+.kop .cup1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+@media screen and (max-width: 663px){
+    .kop .cup{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width: 762px){
+    .kop .cup1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 501px){
+    .kop .cup1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
 
 @media (max-width: 1200px) {
     
