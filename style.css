@@ -141,6 +141,7 @@ header .header__main .header__blok img{
     color: black;
     flex-wrap: wrap;
     opacity: 0.6;
+    padding-top: 15px;
 }
 .kop .cup img{
     max-width: 1000px;
