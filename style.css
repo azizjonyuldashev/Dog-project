@@ -160,6 +160,82 @@ header .header__main .header__blok img{
     grid-template-columns: auto auto auto;
     justify-content: space-around;
 }
+.ota {
+    display: flex;
+
+    max-width: 100%;
+    justify-content: space-evenly
+}
+
+.ota img {
+    width: 500px;
+}
+
+.text {
+    padding: 100px;
+}
+
+.text a {
+    color: #E27B3A;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text h2 {
+    color: #170C04;
+    font-weight: 500;
+    font-size: 32.25px;
+}
+
+.text p {
+    color: #170C04;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text button {
+    background: #E27B3A;
+    border-radius: 24px;
+    width: 150px;
+    height: 30px;
+    border: #E27B3A;
+}
+
+.text .as {
+    width: 100px;
+    background: #E5E5E5;
+    border-radius: 24px;
+    color: #E27B3A;
+    border: whitesmoke;
+}
+
+.h1 {
+    text-align: center;
+    color: #170C04;
+}
+
+.ota2 {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blok1 h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blok1 p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.blok1 a {
+    color: #E27B3A;
+}
 @media screen and (max-width: 663px){
     .kop .cup{
         display: grid;
